@@ -1,0 +1,27 @@
+@import "../styles/topBar.css";
+body {
+    background-color: grey;
+}
+* {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+input[type="text"], textarea {
+
+    background-color : black; 
+  
+  }
