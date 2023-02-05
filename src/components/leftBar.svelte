@@ -5,7 +5,7 @@
 	import InvertedButton from "./topBar/invertedButton.svelte";
 </script>
 <div class="leftBar">
-        <div class="important">
+       <!-- <div class="important">
                 <InvertedButton width="15" height="9" img={drop} text="Important"/>
                 <Channel name={"Loqa Rules"} img={pin}/>
                 <Channel name={"Official Announcements"} img={pin}/>
@@ -21,9 +21,20 @@
                 <Channel name={"Negative Zero HUB"} img={pin}/>
                 <Channel name={"Concept Central"} img={pin}/>
                 <Channel name={"Meme FM"} img={pin}/>
-        </div>
+        </div> -->
         <div class="pinneddms">
                 <InvertedButton width="15" height="9" img={drop} text="Pinned DMs and group chats"/>
+                <Channel name={"Jephyr"} img={pin}/>
+                <Channel name={"Iridescentkiwi"} img={pin}/>
+                <Channel name={"WiiUGamerJ"} img={pin}/>
+                <Channel name={"Corion"} img={pin}/>
+                <Channel name={"DormentCoder"} img={pin}/>
+                <Channel name={"Luca"} img={pin}/>
+                <Channel name={"MajsterKotel"} img={pin}/>
+                <Channel name={"Krogucci"} img={pin}/>
+        </div>
+        <div class="otherdms">
+                <InvertedButton width="15" height="9" img={drop} text="Other DMs"/>
                 <Channel name={"Jephyr"} img={pin}/>
                 <Channel name={"Iridescentkiwi"} img={pin}/>
                 <Channel name={"WiiUGamerJ"} img={pin}/>
